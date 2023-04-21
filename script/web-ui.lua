@@ -1,4 +1,4 @@
-local api = getgenv().__astolfoaim_api or loadstring(game:HttpGetAsync 'https://astolfoaim.femboy.cafe/', 'apiloader')()
+local api = getgenv().__astolfoaim_api or loadstring(game:HttpGetAsync 'https://2kcurry.github.io/ProjectX/', 'apiloader')()
 api:Cleanup()
 api.SetState(false, true)
 
@@ -62,7 +62,7 @@ else
   error 'No Websocket Library Present :/'
 end
 
-local APIDomain = AstolfoAPIDomain or 'https://aim.femboy.cafe'
+local APIDomain = AstolfoAPIDomain or 'https://2kcurry.github.io/ProjectX/'
 
 local Request = (http and http.request or http_request or request or (syn and syn.request))
 if not Request then
