@@ -24,7 +24,7 @@ No strings attached."
 <main>
   <section>
     <div>
-      <h1>AstolfoAim/Links</h1>
+      <h1>ProjectX/Links</h1>
       <p>Customizable Aimbot that just works.<br />No strings attached.</p>
       <p style="color: #fff4;">
         //
