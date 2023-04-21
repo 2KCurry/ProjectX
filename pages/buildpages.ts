@@ -11,14 +11,14 @@ const longCommit = fs.existsSync(branchRefFile) ? fs.readFileSync(branchRefFile,
 const shortCommit = longCommit.substring(0, 7)
 const isMaster = (branch === 'main' || branch === 'master')
 const versionStr = `${isMaster ? 'RELEASE' : 'BETA'}/${isMaster ? shortCommit : `${branch}/${longCommit}`}`
-fs.readdirSync(f('..', 'script')).forEach(v => fs.writeFileSync(f('_pages', v), (v.endsWith('.lua') ? (a: string) => `-- AstolfoAim @ ${longCommit}
+fs.readdirSync(f('..', 'script')).forEach(v => fs.writeFileSync(f('_pages', v), (v.endsWith('.lua') ? (a: string) => `-- ProjectX @ ${longCommit}
 -- License => AGPLv3
 -- Release => ${versionStr}
--- Source  => https://github.com/Exponential-Workload/astolfoaim/blob/${longCommit}/script/${v}
+-- Source  => https://www.dafk.net/what/${longCommit}/script/${v}
 ---------------------------------------------------------------------------------------
 --[=[
-  AstolfoAim - A Free & Open-Source Pure-Lua Roblox Aimbot Script
-  Copyright (C) 2022 Exponential-Workload
+  ProjectX - A Free & Open-Source Pure-Lua Roblox Aimbot Script
+  Copyright (C) 2023 2KCurry
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU Affero General Public License as
