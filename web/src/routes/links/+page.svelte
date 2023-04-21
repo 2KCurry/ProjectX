@@ -1,7 +1,7 @@
 <svelte:head>
   <title>AstolfoAim</title>
   <link rel="stylesheet" href="https://ministyles.astolfo.gay/all.css" />
-  <meta name="og:title" content="AstolfoAim - Roblox Aimbot" />
+  <meta name="og:title" content="ProjectX - Roblox Aimbot" />
   <meta property="og:type" content="website" />
   <meta
     name="description"
