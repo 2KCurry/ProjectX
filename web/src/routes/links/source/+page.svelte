@@ -1,5 +1,5 @@
 <script lang="ts">
-  const target = 'https://github.com/Exponential-Workload/AstolfoAim/';
+  const target = 'https://www.dafk.net/what/';
   if (typeof document !== 'undefined') document.location.href = target;
 </script>
 
