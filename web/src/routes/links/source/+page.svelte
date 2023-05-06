@@ -1,5 +1,5 @@
 <script lang="ts">
-  const target = 'https://www.dafk.net/what/';
+  const target = 'https://github.com/2KCurry/ProjectX';
   if (typeof document !== 'undefined') document.location.href = target;
 </script>
 
