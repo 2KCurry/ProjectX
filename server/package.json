@@ -9,7 +9,7 @@
     "start": "node ."
   },
   "keywords": [],
-  "author": "",
+  "author": "Exponential-Workload & 2KCurry",
   "license": "AGPL-3.0-OR-LATER",
   "dependencies": {
     "dotenv": "^16.0.3",

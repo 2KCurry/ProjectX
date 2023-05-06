@@ -14,7 +14,7 @@ const versionStr = `${isMaster ? 'RELEASE' : 'BETA'}/${isMaster ? shortCommit : 
 fs.readdirSync(f('..', 'script')).forEach(v => fs.writeFileSync(f('_pages', v), (v.endsWith('.lua') ? (a: string) => `-- ProjectX @ ${longCommit}
 -- License => AGPLv3
 -- Release => ${versionStr}
--- Source  => https://www.dafk.net/what/${longCommit}/script/${v}
+-- Source  => https://github.com/2KCurry/ProjectX/blob/${longCommit}/script/${v}
 ---------------------------------------------------------------------------------------
 --[=[
   ProjectX - A Free & Open-Source Pure-Lua Roblox Aimbot Script

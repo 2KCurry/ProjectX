@@ -38,6 +38,9 @@ No strings attached."
           ><a href="https://nexuspipe.com">NexusPIPE</a> //</span
         >
         <a href="/media">Media</a> //
+        <br />
+        //
+        <a href="https://aim.femboy.cafe">Upstream</a> //
       </p>
       <a href="https://nexuspipe.com?utm_source=astolfoaim"
         ><img
